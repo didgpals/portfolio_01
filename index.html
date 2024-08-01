@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>함께하는 한숲</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="img/common/favicon.png" type="image/x-icon">
+
+  <!-- FONTS -->
+  <link rel="stylesheet" href="css/font.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <!-- JS -->
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+      <div class="inner">
+        <div class="header_top">
+          <ul>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">발급</a></li>
+            <li><a href="#">사이트맵</a></li>
+          </ul>
+        </div>
+        <div class="header_bottom">
+          <h1><a href="#"><img src="img/common/img_logo.svg" alt="함께하는 한숲"></a></h1>
+          <nav>
+            <ul id="gnb">
+              <li>
+                <a href="#">안내</a>
+                <ul class="depth2">
+                  <li><a href="#">인사말</a></li>
+                  <li><a href="#">이사소개</a></li>
+                  <li><a href="#">조직도·발자취</a></li>
+                  <li><a href="#">파트너기업</a></li>
+                  <li><a href="#">재정보고</a></li>
+                  <li><a href="#">오시는길</a></li>
+                </ul>
+                <!--// depth2 -->
+              </li>
+              <li><a href="#">봉사</a>
+                <ul class="depth2">
+                  <li><a href="#">참여형 기부봉사</a></li>
+                  <li><a href="#">봉사안내·신청</a></li>
+                  <li><a href="#">봉사활동</a></li>
+                </ul>
+                <!-- //depth2 -->
+              </li>
+              <li><a href="#">주요사업</a>
+                <ul class="depth2">
+                  <li><a href="#">사랑의캠페인 사업</a></li>
+                  <li><a href="#">마르지않은곳간</a></li>
+                  <li><a href="#">결연 사업</a></li>
+                  <li><a href="#">교육문화 사업</a></li>
+                  <li><a href="#">환경개선 사업</a></li>
+                </ul>
+                <!--// depth2 -->
+              </li>
+              <li><a href="#">후원</a>
+                <ul class="depth2">
+                  <li><a href="#">후원안내</a></li>
+                  <li><a href="#">아동결연</a></li>
+                  <li><a href="#">후원신청</a></li>
+                  <li><a href="#">모금함설치</a></li>
+                  <li><a href="#">모금함소식</a></li>
+                </ul>
+                <!-- //depth2 -->
+              </li>
+              <li><a href="#">소식</a>
+                <ul class="depth2">
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">이야기마을</a></li>
+                  <li><a href="#">소식지</a></li>
+                  <li><a href="#">언론보도실</a></li>
+                  <li><a href="#">사진갤러리</a></li>
+                  <li><a href="#">영상갤러리</a></li>
+                </ul>
+                <!-- //depth2 -->
+              </li>
+              <li><a href="#">법인시설</a>
+                <ul class="depth2">
+                  <li><a href="#">시설소개</a></li>
+                  <li><a href="#">시설이야기</a></li>
+                  <li><a href="#">천사아너스클럽</a></li>
+                  <li><a href="#">협력기관</a></li>
+                </ul>
+                <!--// depth2 -->
+              </li>
+            </ul>
+            <!-- //gnb -->
+            <button type="button" class="ham">햄버거 버튼</button>
+          </nav>
+          <a href="#" class="btn_donate">후원하기</a>
+        </div>
+        <!-- //header_bottom -->
+      </div>
+      <div class="gnb_bg"></div>
+      <!-- //m_top -->
+      <!-- //inner -->
+      <div class="m_menu">
+        <div class="m_top">
+          <div class="login">
+            <div class="profile">
+              <span class="material-symbols-outlined">
+                person
+              </span>
+            </div>
+            <!-- profile -->
+            <p>로그인</p>
+          </div>
+          <!-- login -->
+          <ul class="m_btn">
+            <li>
+              <a href="#">MY 페이지</a>
+            </li>
+            <li>
+              <a href="#">후원하기</a>
+            </li>
+          </ul>
+          <img src="img/common/close.svg" alt="close" class="btn_close">
+        </div>
+        <!--// m_top-->
+        <div class="m_bottom">
+          <ul class="m_gnb">
+            <li class="active">안내</li>
+            <li>봉사</li>
+            <li>주요사업</li>
+            <li>후원</li>
+            <li>소식</li>
+            <li>법인시설</li>
+          </ul>
+          <div class="depth2_box">
+            <ul class="m_depth2">
+              <li><a href="#">인사말</a></li>
+              <li><a href="#">이사소개</a></li>
+              <li><a href="#">조직도 · 발자취</a></li>
+              <li><a href="#">파트너기업</a></li>
+              <li><a href="#">재정보고</a></li>
+              <li><a href="#">오시는 길</a></li>
+            </ul>
+            <ul class="m_depth2">
+              <li><a href="#">참여형 기부봉사</a></li>
+              <li><a href="#">봉사안내·신청</a></li>
+              <li><a href="#">봉사활동</a></li>
+            </ul>
+            <ul class="m_depth2">
+              <li><a href="#">사랑의캠페인사업</a></li>
+              <li><a href="#">마르지않은곳간</a></li>
+              <li><a href="#">결연사업</a></li>
+              <li><a href="#">교육문화사업</a></li>
+              <li><a href="#">환경개선사업</a></li>
+            </ul>
+            <ul class="m_depth2">
+              <li><a href="#">후원안내</a></li>
+              <li><a href="#">아동결연</a></li>
+              <li><a href="#">후원신청</a></li>
+              <li><a href="#">모금함설치</a></li>
+              <li><a href="#">모금소식</a></li>
+            </ul>
+            <ul class="m_depth2">
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">이야기마을</a></li>
+              <li><a href="#">소식지</a></li>
+              <li><a href="#">언론보도실</a></li>
+              <li><a href="#">사진갤러리</a></li>
+              <li><a href="#">영상갤러리</a></li>
+            </ul>
+            <ul class="m_depth2">
+              <li><a href="#">시설소개</a></li>
+              <li><a href="#">시설이야기</a></li>
+              <li><a href="#">천사아너스클럽</a></li>
+              <li><a href="#">협력기관</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- //m_bottom -->
+      </div>
+    </header>
+    <!-- //header -->
+    <main id="main">
+      <div id="main_banner">
+        <div class="swiper mb">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide mb1"><a href="#">
+              </a>
+            </li>
+            <li class="swiper-slide mb2">
+              <a href="#">
+                <div class="mb_txt">
+                  <p>요리도 하고 봉사도 하는</p>
+                  <h2>이마트 피코크 봉사단 모집</h2>
+                  <div class="btn_more"> 참여하기</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <!-- //swiper-wrapper -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- //swiper -->
+      </div>
+      <!--// main-banner -->
+      <section id="donate">
+        <div class="inner">
+          <h2>함께하는 후원</h2>
+          <p>모든 아이들이 행복한 그날까지<br> 아동·청소년들에게 울타리가 되어주세요.</p>
+          <div class="swiper donate_list">
+            <ul class="swiper-wrapper d_list">
+              <li class="swiper-slide d_list_item">
+                <a href="#">
+                  <div class="default">
+                    <img src="img/main/img_d_icon01.png" alt="">
+                    <div class="shortcuts">
+                      <p>정기후원</p>
+                    </div>
+                    <div class="dimd_h">
+                      <p>나눌 수록 커지는 사랑으로<br>
+                        정기적인 나눔 손길 희망을 더해주세요
+                        <span>경제적 어려움과 보호자의 무관심으로 방임되 있는<br>
+                          아동·청소년들을 안정적으로 지원하기 위해서 후원자님<br>
+                          지속적 관심과 사랑이 절실히 필요하답니다.
+                        </span>
+                      </p>
+                    </div>
+                    <!-- //dimd -->
+                  </div>
+                  <!-- //default -->
+                </a>
+              </li>
+              <li class="swiper-slide d_list_item">
+                <a href="#">
+                  <div class="default">
+                    <img src="img/main/img_d_icon02.png" alt="">
+                    <div class="shortcuts">
+                      <p>일시후원</p>
+                    </div>
+                    <div class="dimd_h">
+                      <p>아동·청소년들을 지원하는 일에는<br>
+                        크고 작음이 없습니다.
+                        <span>아동, 청소년들을 지원하는 일에는 크고 작음이 없습니다.
+                          단 한번의 후원도 아동,청소년들을 살리고, 미래에 소망을 줄 수 있습니다.
+                          후원자님들의 따뜻한 사랑과 정성어린 마음으로 아동,청소년들에게 무한한 소망을 부어주세요.
+                        </span>
+                      </p>
+                    </div>
+                    <!--// dimd -->
+                  </div>
+                  <!-- //default -->
+                </a>
+              </li>
+              <li class="swiper-slide d_list_item">
+                <a href="#">
+                  <div class="default">
+                    <img src="img/main/img_d_icon03.png" alt="">
+                    <div class="shortcuts">
+                      <p>아동결연</p>
+                    </div>
+                    <div class="dimd_h">
+                      <p>후원자와 1:1로 결연을 통해<br>
+                        건강하게 성장하도록 도움과 관심을 주고자 합니다.
+                        <span>후원자님의 소중한 사랑과 나눔은
+                          아동,청소년들에게 넓은 세상을 향한 힘이 되고 새로운 꿈을 꿀 수 있는 기회가 될 것입니다.
+                        </span>
+                      </p>
+                    </div>
+                    <!-- //dimd -->
+                  </div>
+                  <!--// default -->
+                </a>
+              </li>
+              <li class="swiper-slide d_list_item">
+                <a href="#">
+                  <div class="default">
+                    <img src="img/main/img_d_icon04.png" alt="">
+                    <div class="shortcuts">
+                      <p>모금함/저금통</p>
+                    </div>
+                    <div class="dimd_h">
+                      <p>작은 동전 하나가<br>
+                        우리 아이들에게는 희망이 됩니다.
+                        <span>동전이 유통되어지는 개인 사업체, 구석구석에 동전이 돌아다니는 가정등에 모금함 또는 저금통을 설치하여 사랑을 가득 담아 주세요.
+                          아동,청소년들의 꿈을 이루기 위해서는 더 많은 사람들이 참여가 필요합니다.
+                          아동,청소년들의 꿈이 미래에 현실이 될 수 있도록 사랑을 가득 채워주세요.
+                        </span>
+                      </p>
+                    </div>
+                    <!-- //dimd -->
+                  </div>
+                  <!-- //default -->
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- //swiper/donate_list -->
+        </div>
+        <!-- //inner -->
+      </section>
+      <section id="volunteer">
+        <div class="inner">
+          <h2>같이하는 봉사</h2>
+          <p>“나눔 기쁨 행복 두배” 여러분의 재능을 나눠주세요.</p>
+          <div class=".swiper btn_list">
+            <div class="swiper-wrapper">
+              <button type="button" class="swiper-slide active">정기봉사</button>
+              <button type="button" class="swiper-slide">단기봉사</button>
+              <button type="button" class="swiper-slide">기획봉사</button>
+              <button type="button" class="swiper-slide">학습지원봉사</button>
+              <button type="button" class="swiper-slide">참여형 기부봉사</button>
+            </div>
+          </div>
+          <ul class="v_join_list">
+            <li>
+              <div class="v_txt">
+                <h3>정기봉사</h3>
+                <p>정기적으로 봉사활동이 가능하신분</p>
+                <a href="#" class="btn_w">신청하기</a>
+                <img src="img/main/arrow_s_w.png" alt="volunteer_shortcut" class="s_shortcut">
+              </div>
+            </li>
+            <li>
+              <div class="v_txt">
+                <h3>단기봉사</h3>
+                <p>특정일을 선택하여 봉사활동 하고 싶은 분</p>
+                <a href="#" class="btn_w">신청하기</a>
+                <img src="img/main/arrow_s_w.png" alt="volunteer_shortcut" class="s_shortcut">
+              </div>
+            </li>
+            <li>
+              <div class="v_txt">
+                <h3>기획봉사</h3>
+                <p>본인이 직접 기획하여 봉사활동을 하고 싶은 분</p>
+                <a href="#" class="btn_w">신청하기</a>
+                <img src="img/main/arrow_s_w.png" alt="volunteer_shortcut" class="s_shortcut">
+              </div>
+            </li>
+            <li>
+              <div class="v_txt">
+                <h3>학습지원봉사</h3>
+                <p>중.고등학생들을 대상으로 학습지고 봉사할 분</p>
+                <a href="#" class="btn_w">신청하기</a>
+                <img src="img/main/arrow_s_w.png" alt="volunteer_shortcut" class="s_shortcut">
+              </div>
+            </li>
+            <li>
+              <div class="v_txt">
+                <h3>참여형 기부봉사</h3>
+                <p>다양한 봉사에 참여하고 싶은 분</p>
+                <a href="#" class="btn_w">신청하기</a>
+                <img src="img/main/arrow_s_w.png" alt="volunteer_shortcut" class="s_shortcut">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="campagin">
+        <h2>캠페인</h2>
+        <p>나눔의 즐거움도 느끼며 자신의 손끝에 피어나는<br> 사랑을 아이들에게 나눠주세요.</p>
+        <div class="swiper campagin_list">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide cam">
+              <a href="#">
+                <img src="img/main/img_cam01.jpg" alt="다가오는 봄 어린이날을 축하해주세요.">
+                <div class="cam_txt">
+                  <span>해피빈</span>
+                  <p>다가오는 봄 어린이날을 축하해주세요.</p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide cam">
+              <a href="#">
+                <img src="img/main/img_cam02.jpg" alt="달콤한 봄을 기다리는 아이들">
+                <div class="cam_txt">
+                  <span>해피빈</span>
+                  <p>달콤한 봄을 기다리는 아이들</p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide cam">
+              <a href="#">
+                <img src="img/main/img_cam03.jpg" alt="아이들에 달콤한 5월의 추억을 선물해주세요!">
+                <div class="cam_txt">
+                  <span>해피빈</span>
+                  <p>아이들에 달콤한 5월의 추억을 선물해주세요!</p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide cam">
+              <a href="#">
+                <img src="img/main/img_cam04.jpg" alt="아이들의 빗길 안전을 지켜주세요">
+                <div class="cam_txt">
+                  <span>해피빈</span>
+                  <p>아이들의 빗길 안전을 지켜주세요</p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide cam">
+              <a href="#">
+                <img src="img/main/img_cam05.jpg" alt="지예의 작은 소원, 친구들과의 파자마 파티">
+                <div class="cam_txt">
+                  <span>해피빈</span>
+                  <p>지예의 작은 소원, 친구들과의 파자마 파티</p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide cam">
+              <a href="#">
+                <img src="img/main/img_cam01.jpg" alt="다가오는 봄 어린이날을 축하해주세요.">
+                <div class="cam_txt">
+                  <span>해피빈</span>
+                  <p>다가오는 봄 어린이날을 축하해주세요.</p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide cam">
+              <a href="#">
+                <img src="img/main/img_cam02.jpg" alt="달콤한 봄을 기다리는 아이들">
+                <div class="cam_txt">
+                  <span>해피빈</span>
+                  <p>달콤한 봄을 기다리는 아이들</p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide cam">
+              <a href="#">
+                <img src="img/main/img_cam03.jpg" alt="아이들에 달콤한 5월의 추억을 선물해주세요!">
+                <div class="cam_txt">
+                  <span>해피빈</span>
+                  <p>아이들에 달콤한 5월의 추억을 선물해주세요!</p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide cam">
+              <a href="#">
+                <img src="img/main/img_cam04.jpg" alt="아이들의 빗길 안전을 지켜주세요">
+                <div class="cam_txt">
+                  <span>해피빈</span>
+                  <p>아이들의 빗길 안전을 지켜주세요</p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide cam">
+              <a href="#">
+                <img src="img/main/img_cam05.jpg" alt="지예의 작은 소원, 친구들과의 파자마 파티">
+                <div class="cam_txt">
+                  <span>해피빈</span>
+                  <p>지예의 작은 소원, 친구들과의 파자마 파티</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <!-- swiper-wrapper -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- campagin_list -->
+      </section>
+      <!-- campagin -->
+      <section id="business">
+        <div class="m_b_title">
+          <h2>법인시설</h2>
+          <p>아동·청소년들의 꿈과 희망을 위한 함께하는 시설</p>
+        </div>
+        <div class="inner">
+          <div class="b_title">
+            <h3>법인시설</h3>
+            <p>아동·청소년들의 꿈과 희망을 위한 함께하는 시설</p>
+            <div class="control">
+              <div class="biz-prev"></div>
+              <div class="swiper-pagination"></div>
+              <div class="biz-next"></div>
+            </div>
+          </div>
+          <div class="swiper b_list">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide b_img01">
+                <a href="#">
+                  <p>
+                    아동을 보호하고, 건강한 가정에서 행복하게
+                    <span>안양시아동보호전문기관</span>
+                  </p>
+                </a>
+              </li>
+              <li class="swiper-slide b_img02">
+                <a href="#">
+                  <p>
+                    아이들의 꿈과 희망을 키워가는
+                    <span>한숲지역아동센터</span>
+                  </p>
+                </a>
+              </li>
+              <li class="swiper-slide b_img03">
+                <a href="#">
+                  <p>
+                    아동의 건전한육성을 위한
+                    <span>빛된지역아동센터</span>
+                  </p>
+                </a>
+              </li>
+              <li class="swiper-slide b_img04">
+                <a href="#">
+                  <p>
+                    올바른 인격형성, 자존감 확립을 위한
+                    <span>영문지역아동센터</span>
+                  </p>
+                </a>
+              </li>
+              <li class="swiper-slide b_img05">
+                <a href="#">
+                  <p>
+                    취미 및 소양증진
+                    <span>북카페</span>
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- //inner -->
+      </section>
+      <!-- //business -->
+      <section id="news">
+        <div class="inner">
+          <h2>다양한 소식</h2>
+          <p>함께하는 한숲과의 소식을 받아보세요.</p>
+          <a href="#">새소식 바로가기 <img src="img/main/arrow_circle_right.png" alt="news_shortcut"></a>
+          <ul class="notice">
+            <li>
+              <a href="#">
+                <div class="notice_board">
+                  <div class="icon"><span class="material-symbols-outlined">
+                      notifications_active
+                    </span>
+                  </div>
+                  <p>공지사항</p>
+                </div>
+                <p class="n_title">(채용공고) 영문지역아동센터 사회복지사(생활복지사) 추가 인력 모집</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="notice_board">
+                  <div class="icon"><span class="material-symbols-outlined">
+                      notifications_active
+                    </span>
+                  </div>
+                  <p>공지사항</p>
+                </div>
+                <p class="n_title">(채용공고)빛된지역아동센터 생활복지사 모집</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="notice_board">
+                  <div class="icon"><span class="material-symbols-outlined">
+                      full_coverage
+                    </span>
+                  </div>
+                  <p>언론보도</p>
+                </div>
+                <p class="n_title">심플교회와 따뜻한 겨울 만들기 연탄 나눔 봉사활동 진행</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="notice_board">
+                  <div class="icon"><span class="material-symbols-outlined">
+                      full_coverage
+                    </span>
+                  </div>
+                  <p>언론보도</p>
+                </div>
+                <p class="n_title">주얼리가업승계모임 '이음'과 수색동에서 연탄 봉사활동 진행</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="notice_board">
+                  <div class="icon"><span class="material-symbols-outlined">
+                      full_coverage
+                    </span>
+                  </div>
+                  <p>언론보도</p>
+                </div>
+                <p class="n_title">고려대, 서강대, 성균관대 연합MBA와 사랑의 병아리 만쥬 만들기 봉사</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- //inner -->
+      </section>
+    </main>
+    <!-- //main -->
+    <footer id="footer">
+      <div class="inner">
+        <div class="f_top">
+          <div class="f_logo"><img src="img/common/logo_b.svg" alt="함께하는 한숲"></div>
+          <ul>
+            <li><a href="#">단체소개</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보취급방침</a></li>
+            <li><a href="#">이메일무단수집거부</a></li>
+            <li><a href="#">협약안내</a></li>
+          </ul>
+        </div>
+        <!-- //f_top -->
+        <ul class="sns">
+          <li><a href="#"><img src="img/common/icon_cafe.svg" alt="네이버카페"></a></li>
+          <li><a href="#"><img src="img/common/icon_h_bean.svg" alt="해피빈"></a></li>
+          <li><a href="#"><img src="img/common/icon_blog.svg" alt="네이버블로그"></a></li>
+          <li><a href="#"><img src="img/common/icon_kakao.svg" alt="카카오스토리"></a></li>
+        </ul>
+        <!--// sns -->
+        <address class="f_info">
+          <b>상호</b>:사단법인과 함께하는 한숲 &nbsp; <p><b>대표자</b>:권훈 사업자등록번호123-82-15030</p>
+          <b>주소</b>:경기도 안양 만안구 양화로 25번(안양동)<br>
+          <b>TEL</b>:031-466-1053~4 &nbsp;<p><b>FAX</b>:031-465-2756 &nbsp;<br>
+          <p><b>E-mail</b>:hansup1053@hansup.or.kr</p><br>
+          Copyright@2007~2014 함께하는 한숲 All rights reserved.<br>
+        </address>
+        <!--// f_info -->
+        <select class="family_site">
+          <option value="패밀리사이트 바로가기">패밀리사이트 바로가기</option>
+          <option value="함께하는 한숲 온라인 소식지">함께하는 한숲 온라인 소식지</option>
+          <option value="네이버 콩 저금통">네이버 콩 저금통</option>
+          <option value="해피빈 모금함">해피빈 모금함</option>
+          <option value="네이버 카페">네이버 카페</option>
+          <option value="다음 카페">다음 카페</option>
+          <option value="페이스북">페이스북</option>
+        </select>
+        <!-- //family_site -->
+      </div>
+      <!-- //inner -->
+    </footer>
+    <!-- //footer -->
+  </div>
+  <div class="quick">
+    <button type="button" class="btn_quick">
+    </button>
+    <div class="btn_quick_open">
+      <ul class="q_open_wrapper">
+        <li>
+          <a href="#">
+            <img src="img/common/icon_donate.png" alt="후원">
+            <p>후원</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/common/icon_volunteer.png" alt="봉사">
+            <p>봉사</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/common/icon_cs.png" alt="문의">
+            <p>문의</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/common/icon_top.png" alt="top">
+            <p>Top</p>
+          </a>
+        </li>
+        <li>
+          <button type="button" class="btn_quick_close">
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
